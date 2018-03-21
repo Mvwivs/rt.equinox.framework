@@ -10,6 +10,7 @@ package org.eclipse.equinox.log;
 import org.osgi.service.log.LogEntry;
 import org.osgi.service.log.LogListener;
 
+///!!!!!!!!!!!!!!!!
 /**
  * Extends the OSGi Log Services <code>LogEntry</code> object to provide additional context information.
  * Otherwise similarly accessible by registering a <code>LogListener</code> object.
@@ -19,7 +20,8 @@ import org.osgi.service.log.LogListener;
  * @since 3.7
  */
 public interface ExtendedLogEntry extends LogEntry {
-
+	//GIANT NEW FEATURE!!!!!!!!!
+	//!!!!!!!!
 	/**
 	 * Returns the logger name associated with this <code>LogEntry</code>
 	 * object.
